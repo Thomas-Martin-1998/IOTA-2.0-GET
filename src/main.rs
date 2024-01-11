@@ -1,5 +1,6 @@
 
 use iota_sdk::{client::{Client, Result}, types::block::payload::{Payload},};
+use serde_json::{json};
 
 #[tokio::main]
 async fn main() -> Result<()> {
@@ -39,7 +40,15 @@ async fn main() -> Result<()> {
 
         let tag = String::from_utf8(tag_bytes.to_vec()).expect("Found invalid UTF-8");
 
-        println!("[{tag:#?} , {data:#?}]");
+        let json_object = json!({
+            "tag": tag,
+            "data": data
+        });
+    
+        // Convert the JSON object to a String
+        let json_string = json_object.to_string();
+
+        println!("{}", json_string);
     }
 
     Ok(())

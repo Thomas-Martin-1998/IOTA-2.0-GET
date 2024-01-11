@@ -1,0 +1,1 @@
+{"rustc":9313819672678296987,"features":"","target":0,"profile":0,"path":0,"deps":[[495452999941993109,"build_script_build",false,10075657911135686980]],"local":[{"RerunIfChanged":{"output":"release/build/iota-crypto-0eefe2abc79d63e0/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
