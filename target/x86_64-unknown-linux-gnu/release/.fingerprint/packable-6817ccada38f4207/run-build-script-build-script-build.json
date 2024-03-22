@@ -1,0 +1,1 @@
+{"rustc":2977426507918707816,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[35040838032675164,"build_script_build",false,4241388166659561667]],"local":[{"RerunIfChanged":{"output":"x86_64-unknown-linux-gnu/release/build/packable-6817ccada38f4207/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
